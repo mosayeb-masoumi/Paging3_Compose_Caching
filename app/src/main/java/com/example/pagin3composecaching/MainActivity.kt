@@ -24,6 +24,11 @@ class MainActivity : ComponentActivity() {
 
     // SOURCE = https://www.youtube.com/watch?v=AasI-0IRXUM&t=1s
 
+    //at first time api will be called and get data from server  then data will be saved in dp
+
+    // after getting data if we turn off internet we will see the all list saved in db
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
